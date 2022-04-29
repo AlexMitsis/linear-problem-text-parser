@@ -1,8 +1,10 @@
-# linear-problem-text-parser
+# linear problem text parser
 
 Γλώσσα προγραμματισμού: Python 3.8.2
 
 Προγραμματιστικό περιβάλλον: Pycharm Community Edition
+
+
 
 Το πρόγραμμα μπορεί να χωριστεί σε 4 στάδια:
 
@@ -27,7 +29,7 @@
 Καθόλη την διάρκεια του προγράμματος γίνονται οι έλεγχοι μορφοποίησης, οι οποίοι αν δεν ικανοποιούνται εμφανίζουν ένα μήνυμα ‘incorrect format’ και τερματίζεται το πρόγραμμα. 
 (με την εντολή: sys.exit(‘incorrect format’))
 Υποθέτουμε πως τα πρόσημα έχουν κενούς χαρακτήρες μπροστά και πίσω τους εκτός από όταν είναι μπροστά στο πρώτο στοιχείο μίας γραμμής (π.χ. -x1 - x2 + 3x3 + x4). Το πρόγραμμα δουλεύει και στην περίπτωση που υπάρχει κενός χαρακτήρας μετά το πρόσημο του πρώτου στοιχείου
-(- x1 - x2 + 3x3 + x4).
+(π.χ. - x1 - x2 + 3x3 + x4).
 
 
 Παράδειγμα LP-1.txt:
@@ -51,3 +53,9 @@ s.t       2  -1   3   1  [ 1 ]   5
          -1  -1   3   1  [ 1 ]   3
           x  >=  0
 ```
+
+## How to run
+1. Download Linear_Problem_Parser.py
+2. Name text file with linear problem you want to parse 'LP-1.txt'
+3. Run Linear_Problem_Parser.py. There should be a file called 'LP-2.txt' in the same folder if LP-1 was formatted correctly
+
